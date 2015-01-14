@@ -1,0 +1,8 @@
+/target/
+target
+logs
+.settings
+.classpath
+.project
+/bin/
+/shippable
