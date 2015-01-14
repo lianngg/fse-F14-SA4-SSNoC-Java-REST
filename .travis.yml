@@ -1,0 +1,9 @@
+language: java
+deploy:
+  provider: heroku
+  api_key:
+    secure: OEYe0ll738gWdqcSK1iTRuarXR9O8CgujlWFpcm1Gtl7d1E2yg5a6oyIMtJNQaCOwZXo+9BxOZZRJR3GeLTq/sqzbXuyPeueW0bAHFUCO9T/5QzxGOJLASCT5Yuh8onkeYNY+TDlpRZ5bKoRfIle4ckLXMSXGyHN4DhJvG2RwjU=
+  app: ssnoc-java
+  on:
+    repo: cmusv-fse/fse-F14-SA4-SSNoC-Java-REST
+    branch: dev
